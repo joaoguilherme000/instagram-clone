@@ -32,6 +32,7 @@
             android:id="@+id/btn_like"
             android:layout_width="25dp"
             android:layout_height="25dp"
+            android:layout_marginRight="5dp"
             android:scaleType="fitCenter"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/ic_like" />
@@ -40,6 +41,7 @@
             android:id="@+id/btn_comment"
             android:layout_width="25dp"
             android:layout_height="25dp"
+            android:layout_marginRight="5dp"
             android:scaleType="fitCenter"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/ic_comment" />
@@ -48,8 +50,8 @@
             android:id="@+id/btn_share"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:scaleType="fitCenter"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
             android:src="@drawable/ic_share" />
     </LinearLayout>
 </LinearLayout>

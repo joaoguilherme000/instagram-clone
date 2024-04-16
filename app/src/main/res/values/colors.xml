@@ -2,5 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="bottom_navigation_icon_color">#7853FF</color>
+    <color name="bottom_navigation_icon_color">#000000</color>
+    <color name="custom_popup_background">#7853FF</color>
+    <color name="custom_popup_text">#000000</color>
+    <color name="custom_popup_item_background">#FFFFFF</color>
+
 </resources>
