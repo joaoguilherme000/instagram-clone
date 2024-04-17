@@ -6,18 +6,17 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import java.util.ArrayList;
 import java.util.List;
 
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder> {
-    private List<Post> posts;
+    private final List<Post> posts;
 
     public PostAdapter(List<Post> posts) {
         this.posts = posts;
     }
 
     public static class Post {
-        private int imageResource;
+        private final int imageResource;
 
         public Post(int imageResource) {
             this.imageResource = imageResource;

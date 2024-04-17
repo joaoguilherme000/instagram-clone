@@ -3,13 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
-        android:title="Configurações"
-        android:icon="@drawable/ic_config"
-        app:showAsAction="ifRoom" />
-
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom"
+        android:title="Configurações"/>
     <item
-        android:id="@+id/action_back"
-        android:title="Voltar"
-        android:icon="@drawable/ic_config"
-        app:showAsAction="withText" />
+        android:id="@+id/menu_item2"
+        android:icon="@drawable/ic_dashboard"
+        app:showAsAction="ifRoom"
+        android:title="Dashboard"/>
+    <item
+        android:id="@+id/menu_item3"
+        android:icon="@drawable/ic_notification"
+        app:showAsAction="ifRoom"
+        android:title="notification"/>
 </menu>

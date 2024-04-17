@@ -16,17 +16,13 @@ public class ProfileFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-
-        // Não habilitar menu no fragmento
-
         return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setHasOptionsMenu(true); // Habilitar opções de menu no fragmento
+        setHasOptionsMenu(true);
     }
 
     @Override
@@ -38,7 +34,6 @@ public class ProfileFragment extends Fragment {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.action_settings) {
-            // Lógica para lidar com o item de menu de configurações
             return true;
         } else {
             return super.onOptionsItemSelected(item);

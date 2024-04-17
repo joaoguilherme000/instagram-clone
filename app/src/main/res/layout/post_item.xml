@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="8dp">
 
-    <!-- Imagem da postagem -->
+    <!-- postagem -->
     <ImageView
         android:id="@+id/image_post"
         android:layout_width="350dp"
@@ -14,7 +14,7 @@
         android:scaleType="fitCenter"
         android:src="@drawable/placeholder_image" />
 
-    <!-- Separador -->
+    <!-- Div -->
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -22,7 +22,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"/>
 
-    <!-- Botões de interação -->
+    <!-- Botões -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
